@@ -6,6 +6,6 @@ import (
 
 func main() {
 	go Server.ClientPost()
-	go Server.GetRequest()
+	//go Server.GetRequest()
 	Server.HandServer()
 }
